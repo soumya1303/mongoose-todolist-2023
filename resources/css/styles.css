@@ -1,0 +1,50 @@
+
+/*
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Sacramento', cursive;
+*/
+
+body{
+    background-color: #1F8A70;
+}
+p{
+    display: inline-block;
+}
+.ft-sacramento {
+    font-family: 'Sacramento', cursive;;
+}
+.ft-white{
+    color: white;
+}
+.ft-mont{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.ft-3rem{
+    font-size: 3rem;
+}
+.ft-12rem{
+    font-size: 1.2rem;
+}
+.txt-align-center{
+    text-align: center;
+}
+.txt-align-left{
+    text-align: left;
+}
+.align-auto{
+    margin: auto;
+}
+
+.ht-30{
+    line-height: 30px;
+}
+.wd-60pct{
+    width: 60%;
+}
+.pl-280{
+    padding-left: 280px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+
