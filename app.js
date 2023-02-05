@@ -10,7 +10,8 @@ app.use(express.static('resources'));
 app.set('view engine', 'ejs');
 
 mongoose.set('strictQuery', true);
-mongoose.connect("mongodb://127.0.0.1:27017/itemDB");
+//mongoose.connect("mongodb://127.0.0.1:27017/itemDB");
+mongoose.connect("mongodb+srv://db-user:password0@cluster0.9sys7.mongodb.net/itemDB?retryWrites=true&w=majority");
 
 const itemSchema = new mongoose.Schema({
     name:{
